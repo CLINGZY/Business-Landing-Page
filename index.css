@@ -426,47 +426,12 @@ footer .btn button {
 
 
 /* MEDIA QUERIES */
-    /* TABLET */
-@media (max-width: 800px) {
-    header {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
-
-    header .links {
-        width: 100%;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .hero {
-        justify-content: space-between;
-    }
-
-    .features .description {
-        grid-template-columns: 1fr 1fr;
-    }
-    .reviews .description {
-        grid-template-columns: 1fr;
-    }
-
-    .pricing .description {
-        justify-content: center;    
-    }
-}
-
 
     /* MOBILE */
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     :root {
         --PAGE-SIDE-PADDING: 0 1rem;
     }   
-
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
 
     .features .description {
         grid-template-columns: 1fr;
@@ -487,6 +452,39 @@ footer .btn button {
     }
 }
 
+
+
+    /* TABLET */
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    header .links {
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .hero {
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .features .description {
+        grid-template-columns: 1fr 1fr;
+    }
+    .reviews .description {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing .description {
+        justify-content: center;    
+    }
+}
 
 
 
